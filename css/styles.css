@@ -1,0 +1,121 @@
+body {
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #000;
+	background-color: #f3f92c;
+}
+
+/* HEADER */
+#header-nav {
+  	background-color: #4097d6;
+  	border-radius: 0;
+  	border: 0;
+}
+
+#logo-img {
+  	background: url('../canario1.png') no-repeat;
+  	width: 150px;
+  	height: 150px;
+  	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  	padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  	color: #fff;
+  	font-size: 2em;
+  	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  	text-decoration: none;
+}
+
+.navbar-brand p { 
+  	color: #000;
+  	text-transform: uppercase;
+  	font-size: .7em;
+  	margin-top: 15px;
+}
+
+.navbar-brand p  span {
+	text-transform: none; 
+  	color: #000;
+}
+
+#nav-list {
+	margin-top: 40px;
+}
+
+#nav-list a {
+  	color: #f3f92c;
+  	text-align: center;
+}
+
+#nav-list a:hover {
+  	background: #404040;
+}
+
+#nav-list a span {
+  	font-size: 1.8em;
+}
+
+#nav-list li {
+	width: 108.219px;
+}
+
+/* HOME PAGE */
+.container .jumbotron {
+  	box-shadow: 0 0 50px #3F0C1F;
+  	border: 2px solid #3F0C1F;
+}
+
+.jumbotron {
+	padding: 0;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../foto-criadouro.png') no-repeat;
+    height: 532px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../canario1(mid).png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 0px 0;
+  }
+
+  .navbar-brand h1 {
+  	font-size: 1.5em;
+  }
+
+  .navbar-brand p { 
+  	margin-top: 5px;
+  }
+
+  #nav-list {
+	margin-top: 15px;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../foto-criadouro.png') no-repeat;
+    height: 532px;
+  }
+  /* End Home Page */
+}
+
