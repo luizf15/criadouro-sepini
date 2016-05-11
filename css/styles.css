@@ -5,48 +5,49 @@ body {
 	background-color: #f3f92c;
 }
 
+
 /* HEADER */
 #header-nav {
-  	background-color: #4097d6;
-  	border-radius: 0;
-  	border: 0;
+  background-color: #4097d6;
+  border-radius: 0;
+  border: 0;
 }
 
 #logo-img {
-  	background: url('../canario1.png') no-repeat;
-  	width: 150px;
-  	height: 150px;
-  	margin: 10px 15px 10px 0;
+  background: url('../canario1.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
 }
 
 .navbar-brand {
-  	padding-top: 25px;
+  padding-top: 25px;
 }
 .navbar-brand h1 { /* Restaurant name */
-  	color: #fff;
-  	font-size: 2em;
-  	text-transform: uppercase;
-  	font-weight: bold;
-  	text-shadow: 1px 1px 1px #222;
-  	margin-top: 0;
-  	margin-bottom: 0;
-  	line-height: .75;
+  color: #fff;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
-  	text-decoration: none;
+  text-decoration: none;
 }
 
 .navbar-brand p { 
-  	color: #000;
-  	text-transform: uppercase;
-  	font-size: .7em;
-  	margin-top: 15px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
 }
 
 .navbar-brand p  span {
 	text-transform: none; 
-  	color: #000;
+  color: #000;
 }
 
 #nav-list {
@@ -54,16 +55,16 @@ body {
 }
 
 #nav-list a {
-  	color: #f3f92c;
-  	text-align: center;
+  color: #f3f92c;
+  text-align: center;
 }
 
 #nav-list a:hover {
-  	background: #404040;
+  background: #404040;
 }
 
 #nav-list a span {
-  	font-size: 1.8em;
+  font-size: 1.8em;
 }
 
 #nav-list li {
@@ -72,8 +73,8 @@ body {
 
 /* HOME PAGE */
 .container .jumbotron {
-  	box-shadow: 0 0 50px #999900;
-  	border: 2px solid #008fb3;
+  box-shadow: 0 0 50px #999900;
+  border: 2px solid #008fb3;
 }
 
 #map-tile, #photos-tile {
@@ -86,12 +87,12 @@ body {
 }
 
 #map-tile:hover, #photos-tile:hover {
-  	box-shadow: 0 1px 5px 1px #cccccc;
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 #photos-tile {
-  	background: url('../photos-tile.png') no-repeat;
-  	background-position: center;
+  background: url('../photos-tile.png') no-repeat;
+  background-position: center;
 }
 
 #map-tile span, #photos-tile span {
@@ -99,18 +100,18 @@ body {
 	bottom: 0;
 	right: 0;
 	width: 100%;
-  	text-align: center;
-  	font-size: 1.6em;
-  	text-transform: uppercase;
-  	background-color: #000;
-  	color: #fff;
-  	opacity: .7;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .7;
 }
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   	.container .jumbotron {
-    	background: url('../canario-jumbotron1200.png') no-repeat;
+    	background: url('../canario-jumbotron1200.jpg') no-repeat;
     	height: 675px;
   	}
 }
@@ -140,7 +141,7 @@ body {
 
   	/* Home Page */
   	.container .jumbotron {
-    	background: url('../canario-jumbotron992.png') no-repeat;
+    	background: url('../canario-jumbotron992.jpg') no-repeat;
     	height: 558px;
   	}
   	/* End Home Page */
@@ -150,7 +151,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   	.container .jumbotron {
-    	background: url('../canario-jumbotron768.png') no-repeat;
+    	background: url('../canario-jumbotron768.jpg') no-repeat;
     	height: 432px;
   }
   /* End Home Page */
