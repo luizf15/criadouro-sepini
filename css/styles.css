@@ -77,7 +77,7 @@ body {
   border: 2px solid #008fb3;
 }
 
-#map-tile, #photos-tile {
+#map-tile, #photos-tile, #magazine-tile {
 	height: 300px;
 	width: 100%;
 	margin-bottom: 15px;
@@ -86,7 +86,7 @@ body {
 	overflow: hidden;
 }
 
-#map-tile:hover, #photos-tile:hover {
+#map-tile:hover, #photos-tile:hover, #magazine-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
@@ -95,7 +95,7 @@ body {
   background-position: center;
 }
 
-#map-tile span, #photos-tile span {
+#map-tile span, #photos-tile span, #magazine-tile span {
 	position: absolute;
 	bottom: 0;
 	right: 0;
