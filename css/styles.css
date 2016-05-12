@@ -2,7 +2,7 @@ body {
 	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #000;
-	background-color: #f3f92c;
+	background-color: rgb(255,233,52); 
 }
 
 
@@ -55,7 +55,7 @@ body {
 }
 
 #nav-list a {
-  color: #f3f92c;
+  color: rgb(255,233,52);
   text-align: center;
 }
 
@@ -115,8 +115,15 @@ body {
   opacity: .7;
 }
 
+/* FOOTER */
 #hours span, #address span {
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.panel-footer {
+  background-color: #4097d6;
+  color: rgb(255,233,52);
 }
 
 /********** Large devices only **********/
