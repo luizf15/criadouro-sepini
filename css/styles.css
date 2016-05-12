@@ -74,7 +74,7 @@ body {
 /* HOME PAGE */
 .container .jumbotron {
   box-shadow: 0 0 50px #999900;
-  border: 2px solid #008fb3;
+  /*border: 2px solid #008fb3;*/
 }
 
 #map-tile, #photos-tile, #magazine-tile {
@@ -82,14 +82,14 @@ body {
 	width: 100%;
 	margin-bottom: 15px;
 	position: relative;
-	border: 2px solid #008fb3;
+	/*border: 2px solid #008fb3;*/
 	overflow: hidden;
 }
 
 
 
 #map-tile:hover, #photos-tile:hover, #magazine-tile:hover {
-  box-shadow: 0 3px 5px 3px #404040;
+  box-shadow: 0 5px 5px 5px #404040;
 }
 
 #photos-tile {
