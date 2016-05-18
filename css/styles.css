@@ -2,13 +2,16 @@ body {
 	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #000;
-	background-color: rgb(255,233,52); 
+	background-color: #f2f2f2; /*rgb(255,233,52)*/ 
 }
 
+hr {
+  border-color: #000;
+}
 
 /* HEADER */
 #header-nav {
-  background-color: #4097d6;
+  background-color: rgb(255,233,52); /*#4097d6*/
   border-radius: 0;
   border: 0;
 }
@@ -55,12 +58,12 @@ body {
 }
 
 #nav-list a {
-  color: rgb(255,233,52);
+  color: #4097d6; /*rgb(255,233,52)*/
   text-align: center;
 }
 
 #nav-list a:hover {
-  background: #404040;
+  background: #f2f2f2; /*#404040*/
 }
 
 #nav-list a span {
@@ -72,9 +75,32 @@ body {
 }
 
 /* HOME PAGE */
+#myCarousel {
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 45px;
+
+}
+
 .container .jumbotron {
-  box-shadow: 0 0 50px #999900;
+  box-shadow: 0 0 50px #f2f2f2; /*#999900*/
   /*border: 2px solid #008fb3;*/
+}
+
+#home-tiles {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #map-tile, #photos-tile, #magazine-tile {
@@ -85,7 +111,6 @@ body {
 	/*border: 2px solid #008fb3;*/
 	overflow: hidden;
 }
-
 
 
 #map-tile:hover, #photos-tile:hover, #magazine-tile:hover {
@@ -115,6 +140,13 @@ body {
   opacity: .7;
 }
 
+#anuncios section {
+  height: 200px;
+  width: 100%;
+  border: 1px solid #000;
+  margin-bottom: 5px;
+}
+
 /* FOOTER */
 #hours span, #address span {
   font-weight: bolder;
@@ -122,8 +154,8 @@ body {
 }
 
 .panel-footer {
-  background-color: #4097d6;
-  color: rgb(255,233,52);
+  background-color: rgb(255,233,52);
+  color: #4097d6;
 }
 
 /********** Large devices only **********/
@@ -142,7 +174,7 @@ body {
     	width: 100px;
     	height: 100px;
     	margin: 5px 5px 0px 0;
-	}
+	  }
 
   	.navbar-brand h1 {
   		font-size: 1.5em;
