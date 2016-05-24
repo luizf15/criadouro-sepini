@@ -6,20 +6,20 @@ body {
 }
 
 hr {
-  border-color: #000;
+  border-color: #b0b0b0;
 }
 
 /* HEADER */
 #header-nav {
-  background-color: rgb(255,233,52); /*#4097d6*/
+  background-color: #4097d6; /*rgb(255,233,52);*/
   border-radius: 0;
   border: 0;
 }
 
 #logo-img {
-  background: url('../LOGO_REMODELADA.jpg') no-repeat;
+  background: url('../Logo2.png') no-repeat;
   width: 416px;
-  height: 150px;
+  height: 138px;
   margin: 10px 15px 10px 0;
 }
 
@@ -58,12 +58,12 @@ hr {
 }
 
 #nav-list a {
-  color: #4097d6; /*rgb(255,233,52)*/
+  color: rgb(255,233,52); /*#4097d6*/
   text-align: center;
 }
 
 #nav-list a:hover {
-  background: #f2f2f2; /*#404040*/
+  background: #404040;
 }
 
 #nav-list a span {
@@ -76,14 +76,14 @@ hr {
 
 /* HOME PAGE */
 #myCarousel {
-  height: 500px;
+  height: 400px;
   margin-bottom: 50px;
 }
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   width: 70%;
-  height: 500px;
+  height: 400px;
   margin: auto;
 }
 
@@ -98,12 +98,51 @@ hr {
   /*border: 2px solid #008fb3;*/
 }
 
+#criadores-amigos {
+  background: url('../amigos_page.jpg') no-repeat;
+  height: 183px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#revista-criadouro {
+  background: url('../revista_criadouro.jpg') no-repeat;
+  height: 183px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#facebook {
+  height: 183px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#anuncio1, #anuncio2, #anuncio3 {
+  height: 183px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #b0b0b0;
+}
+
+#noticias {
+  margin-bottom: 50px;
+}
+
+#noticias a {
+  text-decoration: none;
+}
+
+#noticias span {
+  font-size: 1.5em;
+}
+
 #home-tiles {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-#map-tile, #photos-tile, #magazine-tile {
+#map-tile, #facebook, #magazine-tile {
 	height: 262px;
 	width: 100%;
 	margin-bottom: 15px;
@@ -113,8 +152,8 @@ hr {
 }
 
 
-#map-tile:hover, #photos-tile:hover, #magazine-tile:hover {
-  box-shadow: 0 5px 5px 5px #404040;
+#map-tile:hover, #magazine-tile:hover {
+  box-shadow: 0 2px 3px 3px #404040;
 }
 
 #photos-tile {
@@ -123,11 +162,11 @@ hr {
 }
 
 #magazine-tile {
-  background: url('../fotos.jpg') no-repeat;
+  background: url('../revista_escrete.jpg') no-repeat;
   background-position: center;
 }
 
-#map-tile span, #photos-tile span, #magazine-tile span {
+#map-tile span {
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -140,22 +179,19 @@ hr {
   opacity: .7;
 }
 
-#anuncios section {
-  height: 200px;
-  width: 100%;
-  border: 1px solid #000;
-  margin-bottom: 5px;
+/* FOOTER */
+#hours, #address, #tribute {
+  line-height: 1.5em;
 }
 
-/* FOOTER */
 #hours span, #address span {
   font-weight: bolder;
   font-size: 1.5em;
 }
 
 .panel-footer {
-  background-color: rgb(255,233,52);
-  color: #4097d6;
+  background-color: #4097d6;;
+  color: rgb(255, 233, 52);
 }
 
 /********** Large devices only **********/
