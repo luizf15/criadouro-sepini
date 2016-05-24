@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Criadouro Sepini</title>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <!--
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Criadouro Sepini</h1></a>
+            <p>
+              <img src="logo.png" alt="Certificado IBAMA">
+              <span>Certificado IBAMA</span>
+            </p>
+          </div> -->
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="fotos.html">
+                <span class="glyphicon glyphicon-camera"></span><br class="hidden-xs">Fotos</a>
+            </li>
+            <li>
+              <a href="sobre.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">Contato</a>
+            </li>
+            <li>
+              <a href="premiacoes.html">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Premiações</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="menu" class="container">
+    <ol class="breadcrumb">
+      <li class="active">Página Inicial</li>
+      <li><a href="#">História</a></li>
+      <li><a href="#">Premiações e Matérias</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Links Úteis</a></li>
+    </ol>
+  </div>
+
+  <div id="main-content" class="container">
+      <div class="col-lg-12">
+        <div class="form-area">  
+          <form role="form">
+          <br style="clear:both">
+              <h3 style="margin-bottom: 25px; text-align: center;">Formulário de Contato</h3>
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Nome" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Número de celular" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Assunto" required>
+              </div>
+              <div class="form-group">
+              <textarea class="form-control" type="textarea" id="message" placeholder="Mensagem" maxlength="140" rows="7"></textarea>
+                <span class="help-block"><p id="characterLeft" class="help-block ">Você atingiu o limite</p></span>                    
+              </div>
+            
+              <button type="button" id="submit" name="submit" class="btn btn-xlarge pull-right">Enviar</button>
+          </form>
+        </div>
+      </div>
+  </div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Horário de Atendimento:</span><br><br>
+          Seg-Sex: 09:00 - 17:00<br>
+          Sábado: 09:00 - 12:00<br>
+          Fechado aos domingos
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Endereço:</span><br><br>
+          Rua Ferreira Prado, 456<br>
+          Paraguaçu - MG, 37120-000
+          <p>* Venha e confira os canários mais bonitos do sul de Minas!</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="tribute" class="col-sm-4">
+          <p>"Ah! Os canários amarelos, que vêm da cor ouro, da cor do sol, que representa luz e amadurecimento."</p>
+          <p>"Ah! Os canários amarelos, que representam a beleza radiante da cor, presente no arco-íris e em nossa bandeira brasileira."</p>
+          <a href="https://www.facebook.com/criadourosepini/?fref=ts" target="_blank">
+            <img title="Facebook" alt="Facebook" class="pull-right" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook.png" width="35" height="35" />
+          </a>
+          <a href="https://www.instagram.com/criadourosepini/" target="_blank">
+            <img title="Instagram" alt="Instagram" class="pull-right" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35" />
+          </a>
+        </section>
+      </div>
+      <div class="text-center">&copy; Criadouro Sepini 2016</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
